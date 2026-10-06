@@ -1,0 +1,13 @@
+# примеры API-запросов
+
+@baseUrl = http://localhost:8000/api
+
+# получение списка датчиков
+GET {{baseUrl}}/sensors/
+Content-Type: application/json
+
+###
+
+# получение информации по датчику
+GET {{baseUrl}}/sensors/1/
+Content-Type: application/json
